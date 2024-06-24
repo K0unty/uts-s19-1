@@ -76,6 +76,7 @@ function displayCatImage() {
                     imgElement = document.getElementById("cat-image");
                     imgElement.src = catImage.url;
                     imgElement.alt = "A cute cat";
+                    playCatSound();
                     return [3 /*break*/, 3];
                 case 2:
                     error_2 = _a.sent();
@@ -86,12 +87,21 @@ function displayCatImage() {
         });
     });
 }
-// Wait for the DOM to be fully loaded before adding event listeners
+function playCatSound() {
+    var audio = document.getElementById("cat-sound");
+    if (audio) {
+        audio.currentTime = 0; // Reset the audio to the beginning
+        audio.play().catch(function (error) { return console.error("Error playing sound:", error); });
+    }
+}
 document.addEventListener("DOMContentLoaded", function () {
     var loadButton = document.getElementById("load-button");
     if (loadButton) {
-        loadButton.addEventListener("click", displayCatImage);
+        loadButton.addEventListener("click", function () {
+            displayCatImage();
+            playCatSound();
+        });
     }
-    // Load initial cat image
+    // Load initial cat image and play sound
     displayCatImage();
 });
