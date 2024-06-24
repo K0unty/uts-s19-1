@@ -1,0 +1,25 @@
+// Prettier, Prettier Typescript Course, Indent Rainbow , Error Lens, Color , Icons , Obsidian Theme , Mayuki theme 
+{
+    "workbench.list.smoothScrolling": true,
+    "editor.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "editor.renderWhitespace": "all",
+    "editor.guides.bracketPairs": "active",
+    "editor.lineHeight": 2,
+    "editor.fontSize": 17,
+    "editor.fontFamily": "GoMono Nerd Font",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "files.autoSave": "onFocusChange",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "workbench.iconTheme": "simple-icons",
+    "workbench.colorTheme": "Best Themes - Material High Contrast Italic",
+    "editor.stickyScroll.enabled": true,
+    "markdown.extension.preview.autoShowPreviewToSide": true,
+    "markdown.extension.toc.orderedList": true,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorStyleInactive": "block",
+    "editor.cursorBlinking": "expand"
+  }

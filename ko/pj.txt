@@ -1,0 +1,11 @@
+Project discovery has an open source tool manager - https://github.com/projectdiscovery/pdtm 
+- You can use this to install tools 
+- Install 
+go install -v github.com/projectdiscovery/pdtm/cmd/pdtm@latest
+
+There is aloso a helper 
+Info Site - https://mpdtm.surge.sh/ 
+
+Installation 
+go install -v github.com/mxiumz/mpdtm/cmd/mpdtm@latest
+- This will only work if you install the pdtm official manager above 
