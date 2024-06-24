@@ -14,7 +14,7 @@
 <summary>
 👅👅👅
 </summary>
-<img src="./public/r.gif" width="400%">
+<img src="https://raw.githubusercontent.com/K0unty/utsv1/main/public/r.gif" width="400%">
 </details>
 
 # `uts-s19-1`
